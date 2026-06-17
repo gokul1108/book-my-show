@@ -51,7 +51,7 @@ const mailGenerator = new Mailgen({
 export const sendOTPtoEmail = async (email: string, otp: number) => {
     const emailTemp:any = {
             body: {
-                name: '',
+                name: 'gokul',
                 intro: 'Welcome to bookMyScreen! We\'re very excited to have you on board.',
                 action: {
                     instructions: 'To verify your account, please use the following OTP:',

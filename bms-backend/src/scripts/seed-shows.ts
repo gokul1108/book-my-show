@@ -79,7 +79,7 @@ export const seedShow = async () => {
     }
   }
 
-  console.log(" Show seeding completed for selected movies in West Bengal.");
+  console.log(" Show seeding completed for selected movies.");
 };
 
 mongoose
